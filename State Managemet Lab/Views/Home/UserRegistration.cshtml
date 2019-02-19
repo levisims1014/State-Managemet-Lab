@@ -1,0 +1,17 @@
+﻿<h2>Registration Page</h2>
+<br />
+<form method="post" action="Result">
+    <fieldset>
+        <legend> Personal Information </legend>
+        <br />
+        <p>User Name: </p> <input name="UserName" />
+        <br />
+        <p>Email: </p> <input type="email" name="Email" />
+        <br />
+        <p>Password: </p> <input name="Password" type="password" pattern=".{8,12}" required title="8-12 characters" />
+        <br />
+        <p>Age: </p> <input name="Age" type="number" />
+        <br />
+    </fieldset>
+    <input type="submit" value="Register" />
+</form>
